@@ -5,6 +5,7 @@ verify_ssl = true
 
 [dev-packages]
 mysqlclient = {path = "./mysqlclient-1.4.6-cp38-cp38-win32.whl"}
+django-mysql = "*"
 
 [packages]
 django = "*"
