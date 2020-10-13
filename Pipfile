@@ -1,0 +1,19 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+mysqlclient = {path = "./mysqlclient-1.4.6-cp38-cp38-win32.whl"}
+
+[packages]
+django = "*"
+django-crispy-forms = "*"
+djangorestframework = "*"
+django-filter = "*"
+django-cors-headers = "*"
+django-webpack-loader = "*"
+django-allauth = "*"
+
+[requires]
+python_version = "3.8"
